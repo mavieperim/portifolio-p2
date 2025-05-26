@@ -156,3 +156,88 @@ nav ul li a {
         margin-bottom: 0.5rem;
         color: #2c3e50;
     }
+
+
+
+
+ /* Contato */
+
+.contact-info {
+text-align: center;
+margin-bottom: 2rem;
+}
+ .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+ }
+
+
+ 
+ .social-links a {
+display: inline-block;
+166
+width: 40px;
+167
+height: 40px;
+168
+background:#3498db;
+169
+color: white;
+178
+border-radius: 50%;
+171
+text-align: center;
+172
+line-height: 40px;
+173
+transition: background 0.35;
+174
+175
+176
+social-links a:hover {
+177
+background: #2c3e50;
+178
+179
+188
+Rodapé
+181
+footer {
+162
+background:#2c3e50;
+183
+color: white;
+184
+text-align: center;
+185
+padding: 1.5rem 8;
+186
+margin-top: 2rem;
+157
+188
+189
+190
+191
+192
+193
+Responsividade /
+@media (max-width: 768px) {
+nav ul {
+flex-direction: column;
+align-items: center;
+194
+195
+196
+197
+nav ul 11 (
+margin: 0.5rem 8;
+198
+199
+200
+section (
+201
+padding: 2rem 5%;
+202
+203
