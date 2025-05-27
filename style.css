@@ -176,68 +176,45 @@ margin-bottom: 2rem;
 
  
  .social-links a {
-display: inline-block;
-166
-width: 40px;
-167
-height: 40px;
-168
-background:#3498db;
-169
-color: white;
-178
-border-radius: 50%;
-171
-text-align: center;
-172
-line-height: 40px;
-173
-transition: background 0.35;
-174
-175
-176
-social-links a:hover {
-177
-background: #2c3e50;
-178
-179
-188
-Rodapé
-181
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   background:#3498db;
+   color: white;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 40px;
+   transition: background 0.3s;
+ }
+
+ .social-links a:hover {
+   background: #2c3e50;
+ }
+
+/* Rodapé */
+
 footer {
-162
-background:#2c3e50;
-183
-color: white;
-184
-text-align: center;
-185
-padding: 1.5rem 8;
-186
-margin-top: 2rem;
-157
-188
-189
-190
-191
-192
-193
-Responsividade /
-@media (max-width: 768px) {
-nav ul {
-flex-direction: column;
-align-items: center;
-194
-195
-196
-197
-nav ul 11 (
-margin: 0.5rem 8;
-198
-199
-200
-section (
-201
-padding: 2rem 5%;
-202
-203
+   background:#2c3e50;
+   color: white;
+   text-align: center;
+   padding: 1.5rem 0;
+   margin-top: 2rem;
+}
+
+/* Responsividade  */
+
+  @media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+nav ul li {
+   margin: 0.5rem 8;
+}
+
+section {
+   padding: 2rem 5%;
+
+}
+  }
